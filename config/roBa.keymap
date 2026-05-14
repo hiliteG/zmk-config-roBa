@@ -100,7 +100,7 @@
 
         NUM {
             bindings = <
-&trans                      &trans          &kp UP_ARROW          &kp DOLLAR             &kp TILDE                                               &kp ASTRK        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS
+&kp AMPERSAND               &kp DOLLAR      &kp UP_ARROW          &kp DOLLAR             &kp TILDE                                               &kp ASTRK        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS
 &trans                      &kp LEFT_ARROW  &kp DOWN_ARROW        &kp RIGHT_ARROW        &kp UNDERSCORE  &kp LC(LA(KP_NUMBER_0))      &trans     &kp SLASH        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS
 &mt LEFT_SHIFT KP_NUMBER_0  &kp COMMA       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN     &kp PERCENT                  &kp EQUAL  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD
 &trans                      &trans          &trans                &trans                 &trans          &trans                       &trans     &trans                                                              &trans
