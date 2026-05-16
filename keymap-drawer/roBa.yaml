@@ -10,14 +10,14 @@ layers:
   - U
   - I
   - O
-  - P
+  - {t: P, h: SCROLL}
   - A
   - S
   - D
   - F
   - G
   - Sft+Gui+S
-  - ESCAPE
+  - {t: ▽, type: trans}
   - H
   - J
   - K
@@ -43,7 +43,7 @@ layers:
   - {t: '&to_layer_0 INT_MUHENKAN', h: ARROW}
   - BACKSPACE
   - {t: ENTER, h: FUNCTION}
-  - DEL
+  - ESCAPE
   FUNCTION:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -230,7 +230,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
