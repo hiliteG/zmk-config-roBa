@@ -2,6 +2,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
+#include <input/processors.dtsi> 
 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 80
 
@@ -26,6 +27,19 @@
     //     tap-ms = <5>;
     // };
 };
+
+&zip_temp_layer {
+    require-prior-idle-ms = <200>;
+};
+
+/ {
+    // ★追加：ルート内部にトラックボールリスナーを配置（レイヤー4、維持時間10秒に設定）
+    trackball_listener: trackball_listener {
+        compatible = "zmk,input-listener";
+        device = <&trackball>;
+
+        input-processors = <&zip_temp_layer 4 10000>;
+    };
 
 / {
     combos {
