@@ -13,7 +13,6 @@
 &trackball {
     automouse-layer = <4>;
     scroll-layers = <5>;
-    automouse-delay-ms = <1500>; 
 
     // arrows {
     //     layers = <3>;
@@ -165,4 +164,8 @@
             >;
         };
     };
+};
+
+&trackball_input_processor {
+    automouse-layer-timeout-ms = <2000>; // ← 2秒（2000ms）に延ばす設定
 };
