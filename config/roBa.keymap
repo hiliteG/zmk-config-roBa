@@ -165,7 +165,3 @@
         };
     };
 };
-
-&trackball_input_processor {
-    automouse-layer-timeout-ms = <2000>; // ← 2秒（2000ms）に延ばす設定
-};
