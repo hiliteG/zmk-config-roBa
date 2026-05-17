@@ -13,6 +13,7 @@
 &trackball {
     automouse-layer = <4>;
     scroll-layers = <5>;
+    automouse-delay-ms = <1500>; 
 
     // arrows {
     //     layers = <3>;
