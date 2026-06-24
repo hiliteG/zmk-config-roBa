@@ -86,13 +86,6 @@
             bindings = <&kp N8 &kp N0 &kp N0 &kp NUMBER_2 &kp N0 &kp NUMBER_2>;
             label = "PIN";
         };
-
-        mo2_clear_aml: mo2_clear_aml {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&tog 4 &mo 2>;
-            label = "MO2_CLEAR_AML";
-        };
     };
 
     behaviors {
