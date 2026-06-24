@@ -162,7 +162,7 @@
 &to_layer_0 Q       &to_layer_0 W  &to_layer_0 E  &to_layer_0 R  &to_layer_0 T                      &to_layer_0 Y  &to_layer_0 U  &to_layer_0 I  &to_layer_0 O  &lt 5 P
 &to_layer_0 A       &to_layer_0 S  &to_layer_0 D  &to_layer_0 F  &to_layer_0 G  &trans      &trans  &to_layer_0 H  &mkp MB1       &mkp MB3       &mkp MB2       &trans
 &kp LS(LEFT_SHIFT)  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V  &to_layer_0 B  &trans      &trans  &to_layer_0 N  &mkp MB4       &trans         &mkp MB5       &trans
-&kp LEFT_CONTROL    &trans         &trans         &trans         &to 2          &trans      &trans  &lt 1 ENTER                                                 &to_layer_0 ESCAPE
+&kp LEFT_CONTROL    &trans         &trans         &trans         &to 2          &trans      &trans  &to 1                                                       &to_layer_0 ESCAPE
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
