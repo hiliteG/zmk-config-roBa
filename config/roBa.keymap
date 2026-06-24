@@ -137,10 +137,10 @@
 
         NUM {
             bindings = <
-&kp AMPERSAND  &kp DOLLAR      &kp UP_ARROW    &kp INTERNATIONAL_3  &kp TILDE                                               &kp ASTERISK       &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS
-&kp SEMICOLON  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp UNDERSCORE  &kp LC(LA(KP_NUMBER_0))      &trans     &kp SLASH          &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS
-&kp COLON      &kp COMMA       &kp LPAR        &kp RPAR             &kp AT_SIGN     &kp PERCENT                  &kp EQUAL  &kp KP_NUMBER_0    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DOT
-&trans         &trans          &trans          &trans               &trans          &trans                       &trans     &to_layer_0 ENTER                                                     &to_layer_0 ESCAPE
+&kp AMPERSAND  &kp DOLLAR      &kp UP_ARROW    &kp INTERNATIONAL_3  &kp TILDE                                               &kp ASTERISK     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS
+&kp SEMICOLON  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp UNDERSCORE  &kp LC(LA(KP_NUMBER_0))      &trans     &kp SLASH        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS
+&kp COLON      &kp COMMA       &kp LPAR        &kp RPAR             &kp AT_SIGN     &kp PERCENT                  &kp EQUAL  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DOT
+&trans         &trans          &trans          &trans               &trans          &trans                       &trans     &trans                                                              &to_layer_0 ESCAPE
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
