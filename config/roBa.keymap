@@ -108,10 +108,11 @@
         mb3_k: mb3_k {
             compatible = "zmk,behavior-hold-tap";
             label = "MB3_K";
-            bindings = <&kp>;
+            bindings = <&mkp>, <&k_to0>;
+
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            flavor = "hold-preferred";
+            flavor = "tap-preferred";
         };
     };
 
@@ -176,7 +177,7 @@
         MOUSE {
             bindings = <
 &to_layer_0 Q       &to_layer_0 W  &to_layer_0 E  &to_layer_0 R  &to_layer_0 T                      &to_layer_0 Y  &to_layer_0 U  &to_layer_0 I  &to_layer_0 O  &lt 5 P
-&to_layer_0 A       &to_layer_0 S  &to_layer_0 D  &to_layer_0 F  &to_layer_0 G  &trans      &trans  &to_layer_0 H  &mkp MB1       &mkp MB3       &mkp MB2       &trans
+&to_layer_0 A       &to_layer_0 S  &to_layer_0 D  &to_layer_0 F  &to_layer_0 G  &trans      &trans  &to_layer_0 H  &mkp MB1       &mb3_k MB3 0   &mkp MB2       &trans
 &kp LS(LEFT_SHIFT)  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V  &to_layer_0 B  &trans      &trans  &to_layer_0 N  &to_layer_0 M  &mkp MB4       &mkp MB5       &trans
 &kp LEFT_CONTROL    &trans         &trans         &trans         &to 2          &trans      &trans  &trans                                                      &to_layer_0 ESCAPE
             >;
