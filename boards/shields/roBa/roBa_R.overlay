@@ -1,6 +1,10 @@
 #include <input/processors.dtsi>
 
 #include "roBa.dtsi"
+&zip_temp_layer {
+require-prior-idle-ms = <250>;
+excluded-positions = <18 19 20 31 32 22 34>;
+};
 
 &default_transform {
     col-offset = <6>;
