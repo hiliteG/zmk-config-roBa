@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - Sft+Gui+S
+  - PRINTSCREEN
   - {t: '@', h: '!'}
   - H
   - J
@@ -38,8 +38,8 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: '&to_layer_0 GRAVE', h: '6'}
-  - {t: SPACE, h: NUM}
+  - {t: '&to_layer_0 LA(GRAVE)', h: '6'}
+  - {t: '&to_layer_0 SPACE', h: NUM}
   - {t: '&to_layer_0 INT_MUHENKAN', h: ARROW}
   - BACKSPACE
   - {t: ENTER, h: FUNCTION}
@@ -87,7 +87,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - {t: default, h: toggle}
   NUM:
   - '&'
   - $
@@ -105,7 +105,7 @@ layers:
   - RIGHT ARROW
   - _
   - Ctl+Alt+KP 0
-  - {t: ▽, type: trans}
+  - '"'
   - /
   - KP 4
   - KP 5
@@ -131,7 +131,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: default, h: toggle}
   ARROW:
   - ESCAPE
   - Ctl+Sft+TAB
@@ -177,49 +177,49 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MOUSE:
+  - '&to_layer_0 Q'
+  - '&to_layer_0 W'
+  - '&to_layer_0 E'
+  - '&to_layer_0 R'
+  - '&to_layer_0 T'
+  - '&to_layer_0 Y'
+  - '&to_layer_0 U'
+  - '&to_layer_0 I'
+  - '&to_layer_0 O'
+  - {t: P, h: SCROLL}
+  - '&to_layer_0 A'
+  - '&to_layer_0 S'
+  - '&to_layer_0 D'
+  - '&to_layer_0 F'
+  - '&to_layer_0 G'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&to_layer_0 H'
   - '&mkp MB1'
-  - '&mkp MB3'
+  - {t: '&k_to0', h: '&mkp MB3'}
   - '&mkp MB2'
   - {t: ▽, type: trans}
   - Sft+LEFT SHIFT
+  - '&to_layer_0 X'
+  - '&to_layer_0 C'
+  - '&to_layer_0 V'
+  - '&to_layer_0 B'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&to_layer_0 N'
+  - '&to_layer_0 M'
   - '&mkp MB4'
-  - {t: ▽, type: trans}
   - '&mkp MB5'
   - {t: ▽, type: trans}
   - LEFT CONTROL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: '&to_layer_0 SPACE', h: '&to_layer_while_held 2'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&to_layer_0 ESCAPE'
   SCROLL:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -265,9 +265,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '6':
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&macro_mail'
+  - '&macro_pass1'
+  - '&macro_pin'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: BT, h: '0'}
